@@ -45,3 +45,27 @@ img.centered {
  a:visited {
     color: #00FF00;
 }
+.center-column {
+	font-family: Arial black;
+	color: yellow;
+	text-shadow: 1px 1px purple;
+}
+.side-columns {
+	font-family: Arial black;
+	color: purple;
+	
+}
+div.stats {
+	display:inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url("images/kobevs.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width:960px;
+
+}
+table.center {
+	margin-left: auto;
+	margin-right: auto;
+}
