@@ -4,7 +4,6 @@ body {
 	margin-left: auto;
 	margin-top: 0;
 	margin-bottom: 0;
-	display: inline-block;
 }
 
 h1#kobe-title {
@@ -49,23 +48,27 @@ img.centered {
 	font-family: Arial black;
 	color: yellow;
 	text-shadow: 1px 1px purple;
+	font-weight: bold;
+	font-size: 1.5em;
 }
 .side-columns {
 	font-family: Arial black;
 	color: purple;
+	text-shadow: 1px 1px black;
+	font-size: 1.5em;
 	
 }
 div.stats {
-	display:inline-block;
+	height: 488px;
 	margin-left: auto;
 	margin-right: auto;
 	background-image:url("images/kobevs.jpg");
-	background-size: contain;
 	background-repeat: no-repeat;
-	width:960px;
+	width: 960px;
 
 }
 table.center {
+	margin-top: 75px;
 	margin-left: auto;
 	margin-right: auto;
 }
