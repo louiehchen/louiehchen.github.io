@@ -13,13 +13,29 @@ h1#kobe-title {
 	text-align: center;
 	font-size: 3em;
 }
+h1#kobe-stat {
+	font-family: Arial black;
+	color: yellow;
+	text-shadow: 2px 2px purple;
+	text-align: center;
 
+}
 h2 {
+	font-family: arial black;
 	text-align: center;
 	color: yellow;
 	text-shadow: 1px 1px black;
 }
 
+h3#career {
+	color: yellow;
+	font-family: arial black;
+	font-weight:bold;
+	text-align: center;
+	text-shadow: 1px 1px black;
+	font-size: 1.5em;
+
+}
 p {
 	background-color: black
 	color: yellow;
@@ -65,10 +81,44 @@ div.stats {
 	background-image:url("images/kobevs.jpg");
 	background-repeat: no-repeat;
 	width: 960px;
+	margin-bottom: 50px;
 
 }
 table.center {
 	margin-top: 75px;
 	margin-left: auto;
 	margin-right: auto;
+}
+div.center {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	border-radius: 5px;
+	background-color: purple;
+
+
+}
+
+#kobe-intro {
+	text-align: center;
+	font-family: Helvetica;
+	padding: 20px 10px 10px 20px;
+	display: inline-block;
+	color: yellow;
+
+
+}
+
+ul#numbers {
+	padding-bottom: 20px;
+	padding-left: 360px;
+	color: yellow;
+	font-family: helvetica;
+}
+h3.external{
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: yellow;
+	font-family: helvetica;
 }
